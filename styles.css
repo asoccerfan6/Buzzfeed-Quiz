@@ -1,0 +1,53 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+.questions {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+
+}
+
+.submit {
+    margin: auto;
+    width: 20%;
+}
+
+.result1 {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    display: none;
+}
+
+.result2 {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    display: none;
+}
+
+.result3 {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    display: none;
+}
+
+.result4 {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    display: none;
+}
+
+.result5 {
+    display: none;
+}
