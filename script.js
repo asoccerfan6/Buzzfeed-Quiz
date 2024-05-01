@@ -9,18 +9,17 @@ button.onclick = function() {
     let input2 = document.querySelector(".food").value;
      console.log(input1);
      console.log(input2);
-           
- // // input1 = Number(input1);
-    if (input1 < 2 && input2 === "sweet") {
-        result1.style.display = "block";
+    // input1 = Number(input1);
+    if (input1 < 4 && input2 === "Sweet") {
+        result1.style.display = "show";
         console.log = "Boo";
-    } else if (input1 >= 2 && input2 === "sweet") {
-        result2.style.display = "block";
-    } else if (input1 < 2 && input2 === "salty") {
-        result3.style.display = "block";
-    } else if (input1 >= 2 && input2 === "salty") {
-        result4.style.display = "block";
+    } else if (input1 >= "4" && input2 === "Sweet") {
+        result2.style.display = "show";
+    } else if (input1 < "4" && input2 === "Savory") {
+        result3.style.display = "show";
+    } else if (input1 >= "4" && input2 === "Savory") {
+        result4.style.display = "show";
     } else {
-        result5.style.display = "block";
+        result5.style.display = "show";
     }
 };
